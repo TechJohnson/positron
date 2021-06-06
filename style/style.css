@@ -15,7 +15,7 @@
 
 @font-face {
   font-family: 'SKConcretica';
-  src: url("/positron/fonts/SKConcretica-RegularTrial.ttf") format("truetype");
+  src: url('/positron/fonts/SKConcretica-RegularTrial.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
