@@ -15,7 +15,7 @@
 
 @font-face {
   font-family: 'SKConcretica';
-  src: url('/positron/fonts/SKConcretica-RegularTrial.ttf') format('truetype');
+  src: url("/positron/fonts/SKConcretica-RegularTrial.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -65,7 +65,6 @@ nav div a {
 }
 
 nav div a:hover {
-  font-weight: 700;
   color: #161616;
   border-bottom: 1px solid #161616;
 }
