@@ -1,0 +1,82 @@
+$black: #161616;
+$gray: #968E8C;
+$bg: #F0F0F0;
+$blue: #0052FE;
+
+* {
+    background: $bg;
+    font-size: 1rem;
+    font-family: 'SFProDisplay' system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    padding: 0 .5rem;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'NeueMachina';
+    src: url('/positron/fonts/NeueMachina-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SKConcretica';
+    src: url('/positron/fonts/SKConcretica-RegularTrial.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFProDisplay';
+    src: url('/positron/fonts/SFProDisplay-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin: 0;
+    div {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        a {
+            font-family: 'SKConcretica', sans-serif;
+            text-decoration: none;
+            color: $gray;
+            text-transform: uppercase;
+            border-bottom: 1px solid transparent;
+            padding: 0;
+            margin: 0 1rem;
+            transition: all ease 0.3s;
+            &:hover {
+                font-weight: 700;
+                color: $black;
+                border-bottom: 1px solid $black;
+            }
+        }
+        .active-link {
+            color: #161616;
+            font-weight: 700;
+            border-bottom: 1px solid $black;
+        }
+        img {
+            max-width: 6rem;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    .nav-btn {
+        background: $blue;
+        font-family: 'SFProDisplay', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+        border-radius: 10rem;
+        padding: .5rem 1rem;
+        margin: 0;
+    }
+}
