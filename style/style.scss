@@ -13,21 +13,21 @@ $blue: #0052FE;
 
 @font-face {
     font-family: 'NeueMachina';
-    src: url('/positron/fonts/NeueMachina-Regular.otf');
+    src: url('/positron/fonts/NeueMachina-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'SKConcretica';
-    src: url('/positron/fonts/SKConcretica-RegularTrial.ttf');
+    src: url('/positron/fonts/SKConcretica-RegularTrial.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'SFProDisplay';
-    src: url('/positron/fonts/SFProDisplay-Regular.ttf');
+    src: url('/positron/fonts/SFProDisplay-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
